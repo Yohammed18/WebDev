@@ -1,0 +1,108 @@
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+.btn-sub {
+    color: white;
+    background-color: rgb(201, 0, 0);
+    border: none;
+    height: 36px;
+    width: 105px;
+    cursor: pointer;
+    border-radius: 2px;
+    transition: opacity 0.15s, transform 0.9s ease;
+    margin: 5px;
+    vertical-align: top;
+    
+}
+
+.btn-sub:hover{
+    opacity: 0.5;
+    transform: scale(1.2);
+}
+
+.btn-sub:active{
+    opacity: 0.3;
+}
+
+
+.btn-join {
+    color: rgb(41, 118, 211);
+    background-color: white;
+    cursor: pointer;
+    border-color: rgb(41, 118, 211);
+    border-style: solid;
+    border-width: 1px;
+    transition: opacity 0.15s, 
+    color 1s;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 5px;
+    vertical-align: top;
+}
+
+
+.btn-join:hover{
+    background-color: rgb(41, 118, 211);
+    color: white;
+}
+
+.btn-join:active{
+    opacity: 0.7;
+}
+
+
+
+.btn-tweet {
+    color: white;
+    background-color: rgb(55, 143, 245);
+    border-radius: 25px;
+    height: 36px;
+    width: 75px;
+    font-size: large;
+    cursor: pointer;
+    border: none;
+    transition: box-shadow 0.15s;
+    vertical-align: top;
+}
+
+.btn-tweet:hover{
+    box-shadow: 5px 5px 5px rgba(0,0,0, 0.25);
+}
+
+
+/* 
+font styling
+*/
+
+.title{
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    width: 300px;
+    list-style: 24px;
+    margin-bottom: 10px;
+}
+
+.video-stat{
+    font-size: 14px;
+    color: rgb(109, 103, 103);
+    margin-bottom: 10px;
+}
+
+.author{
+    font-size: 12px;
+    color: rgb(109, 103, 103);
+    margin-bottom: 20px;
+}
+
+.description{
+    font-size: 12px;
+    color: rgb(109, 103, 103);
+    width: 300px;
+    line-height: 22px;
+}
