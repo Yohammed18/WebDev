@@ -1,0 +1,49 @@
+.video-img{
+    width: 400px;
+}
+
+.search-bar{
+    font-size: 25px;
+    border-radius: 0%;
+    margin-left: 275px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    display: block;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.video-preview{
+    width: 400px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 15px;
+    cursor: pointer;
+
+}
+
+.chan-pic{
+    display: inline-block;
+    width: 50px;
+    vertical-align: top;
+}
+
+.video-info{
+    display: inline-block;
+    width: 300px;
+    margin-top: 0px;
+}
+
+.profile-pic{
+    width: 100%;
+}
+
+.video-title{
+    margin-top: 0;
+    margin-bottom: 15px;
+}
