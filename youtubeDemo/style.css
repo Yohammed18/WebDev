@@ -1,5 +1,5 @@
 .video-img{
-    width: 400px;
+    width: 100%;
     margin-bottom: 10px;
 }
 
@@ -17,28 +17,20 @@ p{
     margin-top: 0;
 }
 
-.video-preview{
-    width: 400px;
-    display: inline-block;
-    vertical-align: top;
-    margin-right: 15px;
-    cursor: pointer;
-    margin-bottom: 50px;
+.video-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 15px;
+    row-gap: 40px;
+}
+
+.video-info-grid{
+    display: grid;
+    grid-template-columns: 50px 1fr;
     
-
 }
 
-.chan-pic{
-    display: inline-block;
-    width: 50px;
-    vertical-align: top;
-}
 
-.video-info{
-    display: inline-block;
-    width: 300px;
-    margin-top: 0px;
-}
 
 .profile-pic{
     width: 40px;
